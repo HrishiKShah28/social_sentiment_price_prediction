@@ -150,3 +150,4 @@ class SentimentScorer:
 
         composite = social_weight * avg_social + (1.0 - social_weight) * news_sentiment
         return round(composite, 4)
+

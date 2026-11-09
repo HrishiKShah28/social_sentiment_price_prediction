@@ -99,3 +99,4 @@ def test_technical_level_extractor():
     assert signal.support_1 < signal.resistance_1
     assert signal.trend_direction == "Bullish"
     assert signal.suggested_position in ["Long", "Flat"]
+

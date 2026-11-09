@@ -192,3 +192,4 @@ class DataRepository:
             run.run_metrics = metrics
             run.error_message = error
             self.session.commit()
+

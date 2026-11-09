@@ -99,3 +99,4 @@ class PriceDataService:
             count = self.fetch_and_store_bars(asset, timeframe=timeframe)
             results[asset.ticker] = count
         return results
+

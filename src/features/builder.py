@@ -194,3 +194,4 @@ class FeatureBuilder:
 
         logger.info(f"Built {len(features_list)} feature rows for asset ID {bars[0].asset_id}")
         return features_list
+

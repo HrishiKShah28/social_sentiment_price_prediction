@@ -116,3 +116,4 @@ class ExaNewsService:
         inserted_count = self.repo.add_news_articles(articles)
         logger.info(f"Persisted {len(articles)} Exa news articles for {asset.ticker} ({inserted_count} new)")
         return inserted_count
+

@@ -63,3 +63,4 @@ class SentimentOnlyBaseline(BaseForecaster):
 
     def predict_return(self, X: np.ndarray) -> np.ndarray:
         return self.model.predict(X)
+

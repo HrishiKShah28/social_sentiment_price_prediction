@@ -96,3 +96,4 @@ def test_feature_builder_computation():
     assert "hist_vol_10" in last_row
     assert "sentiment_price_divergence" in last_row
     assert last_row["target_next_return"] is None  # Most recent bar has no future target
+

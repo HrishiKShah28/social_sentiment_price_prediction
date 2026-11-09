@@ -124,3 +124,4 @@ class ApifySocialService:
         except Exception as e:
             logger.error(f"Apify Actor '{actor_id}' execution failed for {asset.ticker}: {e}")
             return 0
+

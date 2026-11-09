@@ -58,3 +58,4 @@ class GradientBoostingPredictor(BaseForecaster):
             return np.zeros(shape=(len(X),), dtype=float)
         X_scaled = self.scaler.transform(X)
         return self.model.predict(X_scaled)
+

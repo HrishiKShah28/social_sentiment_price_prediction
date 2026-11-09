@@ -108,3 +108,4 @@ class TechnicalLevelExtractor:
             suggested_position=position,
             calculation_method="Rolling Swing Pivot + Volume Profile POC",
         )
+

@@ -68,3 +68,4 @@ class TimeSeriesAligner:
             f"Aligned {len(sorted_bars)} bars with {len(sorted_posts)} posts and {len(sorted_news)} news articles."
         )
         return aligned_windows
+

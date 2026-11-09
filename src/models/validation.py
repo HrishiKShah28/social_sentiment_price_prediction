@@ -148,3 +148,4 @@ class WalkForwardValidator:
             results[model_name] = (metrics, preds_records)
 
         return results
+

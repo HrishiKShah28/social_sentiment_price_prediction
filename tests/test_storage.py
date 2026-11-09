@@ -133,3 +133,4 @@ def test_pipeline_run_lifecycle(in_memory_db):
     updated = in_memory_db.query(PipelineRun).filter_by(run_id=run.run_id).first()
     assert updated.status == "completed"
     assert updated.run_metrics["items_scraped"] == 42
+

@@ -52,3 +52,4 @@ def get_db_session() -> Generator[Session, None, None]:
         raise
     finally:
         session.close()
+

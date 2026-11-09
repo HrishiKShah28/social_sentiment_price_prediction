@@ -265,3 +265,4 @@ class PipelineRun(Base):
     run_metrics = Column(JSON, nullable=True)
 
     predictions = relationship("ModelPrediction", back_populates="pipeline_run")
+

@@ -85,3 +85,4 @@ def test_walk_forward_validator():
     assert rw_metrics.rmse >= 0.0
     assert 0.0 <= rw_metrics.directional_accuracy <= 100.0
     assert len(rw_preds) == (14 - 6)
+
